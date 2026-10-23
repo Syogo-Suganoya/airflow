@@ -76,7 +76,7 @@ def list_turbine_readings(**context):
     ]
 
 
-def check_turbine(turbine_id, gearbox_temperature_c, vibration_mm_s, **context):
+def check_turbine(turbine_id, gearbox_temperature_c, vibration_mm_s):
     """Compare one turbine's reading against the operating limits.
 
     The limits are module constants for brevity; a production pipeline would
